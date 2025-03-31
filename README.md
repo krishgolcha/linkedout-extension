@@ -1,4 +1,3 @@
-readme_content = """
 LinkedOut is a lightweight Chrome extension that filters out humblebraggy, fluff-filled, and corporate buzzword-heavy posts from your LinkedIn feed — so you can scroll in peace.
 
 ---
