@@ -1,4 +1,4 @@
-Here's your text, formatted in **GitHub-flavored Markdown** with bolding applied where appropriate to enhance readability — especially for actions and key labels:
+
 
 ---
 
@@ -18,7 +18,7 @@ Here's your text, formatted in **GitHub-flavored Markdown** with bolding applied
 
 ---
 
-## 🧪 How to Install (Locally)**
+## 🧪 How to Install (Locally)
 
 1. Download or clone this repo  
 2. Go to `chrome://extensions` in your browser  
