@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LinkedOut</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #111111;
+      --input-bg: #f3f4f6;
+      --border: #e5e7eb;
+    }
+    [data-theme="dark"] {
+      --bg: #1f2937;
+      --fg: #f3f4f6;
+      --input-bg: #374151;
+      --border: #4b5563;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--fg);
+      padding: 16px;
+      margin: 0;
+      width: 280px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    img.logo { width: 104px; height: 96px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+    textarea, input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background-color: var(--input-bg);
+      color: var(--fg);
+      margin-top: 6px;
+      margin-bottom: 12px;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      font-weight: 500;
+    }
+    button.secondary {
+      background-color: transparent;
+      color: var(--fg);
+      border: 1px solid var(--border);
+    }
+    button:hover {
+      background-color: #2563eb;
+    }
+    button.secondary:hover {
+      background-color: var(--input-bg);
+    }
+    label {
+      display: flex;
+      align-items: center;
+      margin-top: 12px;
+      font-size: 0.9rem;
+      justify-content: start;
+    }
+    input[type="checkbox"] {
+      margin-right: 8px;
+      transform: scale(1.2);
+    }
+    #count {
+      margin-top: 12px;
+      font-weight: 500;
+      font-size: 0.9rem;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <img src="icon.png" alt="LinkedOut Icon" class="logo">
+  <h3>LinkedOut</h3>
+  <label><input type="checkbox" id="toggle" /> Enable Cleaner</label>
+
+  <label for="keywords">Custom keywords (comma separated):</label>
+  <textarea id="keywords" rows="4" placeholder="e.g. i'm honored, grateful for, blessed"></textarea>
+
+  <button id="save">Save Settings</button>
+  <button id="reset" class="secondary" style="margin-top: 6px;">Reset to Default</button>
+
+  <div id="count">Posts hidden today: 0</div>
+
+  <label><input type="checkbox" id="themeToggle" /> Dark Mode</label>
+
+  <script src="popup.js"></script>
+</body>
+</html>
