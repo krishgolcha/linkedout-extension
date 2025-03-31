@@ -35,7 +35,7 @@ Read the [Privacy Policy](https://docs.google.com/document/d/1u6K12Dtwmh7VuNj6a6
 ## 📬 Contact
 
 Questions, ideas, or bug reports?  
-Open an issue or email: golcha.krish@gmail.com**
+Open an issue or email: golcha.krish@gmail.com
 
 ---
 
